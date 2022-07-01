@@ -18,7 +18,7 @@ function AllowNotification() {
                 <Link exact to="/">
                     Don't Allow
                 </Link>
-                <Link exact to="">
+                <Link exact to="#">
                     Allow
                 </Link>
             <img src="/images/hand-up.png" 
