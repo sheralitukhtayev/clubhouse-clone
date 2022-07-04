@@ -1,0 +1,22 @@
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    padding: 0.5em 1em;
+    left: 0;
+    top: 0;
+    right: 0;
+    background-color: #f2f0e4;
+}
+
+.Header img {
+    width: 30px;
+}
+.nav_items img {
+    margin: 0 0.8em;
+}
+
+.userImage {
+    border-radius: 50%;
+}

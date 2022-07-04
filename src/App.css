@@ -36,3 +36,13 @@ a {
 a:hover {
   text-decoration: none;
 }
+
+.app_layout {
+  background-color: #f2f0e4;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  overflow: hidden;
+}

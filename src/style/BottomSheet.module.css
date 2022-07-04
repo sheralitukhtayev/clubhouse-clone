@@ -1,0 +1,81 @@
+.BottomSheetContainer {
+    background-color: #fff;
+    border-radius: 1.5em 1.5em  0 0;
+    padding: 1.5em 1em;
+    position: relative;
+    height: 100%;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.switch_Line {
+    position: absolute;
+    top: 6px; 
+    left: 50%; 
+    transform: translateX("-50%");
+    height: 4px;
+    width: 35px;
+    background-color: #ccc;
+}
+
+.TopicBtn {
+    padding-left: 250px;
+}
+
+
+.addTopicBtn {
+    background-color: transparent;
+    border: none;
+    color: #28ae61;
+    font-size: 0.700em;
+    font-weight: 900;
+}
+
+.selectRoom {
+    border-bottom: 1px solid #ccc;
+    padding: 1.5em 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.selectRoom button {
+    border: none;
+    background-color: transparent;
+    border-radius: 1em;
+    padding: 0.5em 1.3em 0.2em 1.3em;
+    color: var(--textColor);
+    line-height: 1.2;
+}
+
+.selectRoom button.active {
+    border: 1px solid lightseagreen;
+    background-color: lightblue;
+}
+
+.selectRoom button div {
+    background-color: lightseagreen;
+    border-radius: 1.5em;
+}
+
+.selectRoom button svg {
+    font-size: 4em;
+}
+
+.BottomSheetContainer p {
+    font-size: 1em;
+    color: var(--textColor);
+    text-align: center;
+    font-weight: 500;
+}
+
+.letGoBtn {
+    font-size: 1.1em;
+    font-weight: 500;
+    border: none;
+    border-radius: 2em;
+    color: #fff;
+    background-color: #28ae61;
+    padding: 0.3em 2em;
+}
